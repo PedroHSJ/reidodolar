@@ -1,0 +1,29 @@
+.img-row-1 {
+    display: block;
+}
+.img-row-2 {
+    display: flex;
+    overflow-x: scroll;
+}
+.img-row-1 img{
+    width: 65%;
+}
+
+@media only screen and (min-width: 750px) {
+
+    .img-row-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-row-2{
+        overflow-x: visible;
+        flex-wrap: wrap;
+    }
+    .img-row-1 img{
+        width: 30%;
+        margin: 15px;
+    }
+   
+}

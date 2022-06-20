@@ -1,0 +1,88 @@
+
+.container,
+.navbar-brand {
+    background-color: #000;
+}
+
+nav img {
+    width: 30%;
+}
+.header {
+    width: 100%;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #111;
+}
+.header-text {
+    text-align: center;
+}
+.header-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+
+    background-color: #111;
+}
+
+.bandeiras {
+    width: 60%;
+    margin-top: 15px;
+}
+
+#telegram-fixed {
+    display: none;
+}
+
+@media only screen and (min-width: 750px) {    
+    nav img {
+        width: 15%;
+    }
+    .header {
+        width: 100%;
+        height: 60vh;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .header iframe {
+        width: 550px;
+        height: 300px;
+
+        border-radius: 15px;
+    }
+    .header-text {
+        width: 35vw;
+    }
+    .bandeiras {
+        width: 18%;
+        margin-top: 15px;
+    }
+
+    #telegram-fixed {
+        display: block;
+
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 85vh;
+        left: 10vh;
+        background-color: transparent;
+
+        font-size: 4rem;
+
+        width: 64px;
+    }
+
+    #telegram-fixed i{
+        background-color: transparent;
+    }
+}

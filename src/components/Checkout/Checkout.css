@@ -1,0 +1,12 @@
+.checkout-title{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+@media only screen and (min-width: 750px){
+    .checkout-button button{
+        height: 15vh;
+    }
+}

@@ -1,0 +1,18 @@
+.metodo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 25px;
+}
+@media only screen and (min-width: 600px) {
+    .metodo{
+        padding: 0 150px;
+    }
+}
+
+
+
+

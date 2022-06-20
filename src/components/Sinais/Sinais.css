@@ -1,0 +1,35 @@
+.sinais-main{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sinais-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+
+.sinais-carousel{
+    margin-bottom: 25px;
+}
+.sinais-main img{
+    width: 300px;
+    height: 50vh;
+}
+
+@media only screen and (min-width: 750px) {
+    
+    .sinais-main img{
+        width: 550px;
+        height: 50vh;
+    }
+}
